@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.city {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 600px;
+}
+
+.city a {
+  color: inherit;
+}
+
+.menu {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://krots.top/uploads/posts/2023-04/thumbs/1680976261_krot-info-p-tabiat-manzaralari-vkontakte-13.jpg);
+}
+
+.bg-toglar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://upload.wikimedia.org/wikipedia/commons/6/60/Niagara_Falls-_Horseshoe_Falls_%282%29.jpg);
+}
+.bg-ormon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.forestprotection.com/images/orman-cesitleri.jpg);
+}
+.bg-dengiz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://sinaps.uz/wp-content/uploads/2023/05/3-vov-65.webp);
+}
+.bg-chol {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRe6fQW_5XucmJlgGXix2O4I4t_vW49HZFMSojpqHiyGhKleAtCrZublQ4PiPiEaV2T);
+}
+a {
+  margin-top: 100px;
+}
+
+.menu h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.city h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+}
